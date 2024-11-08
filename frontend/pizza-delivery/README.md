@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# PizzaHub 🍕
+PizzaHub is a full-stack web application built using the MERN (MongoDB, Express, React, Node.js) stack. It is designed to streamline the process of ordering and managing pizzas, providing both user and admin functionalities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+### User Features
+User Registration & Login: Secure authentication and authorization.
+Custom Pizza Builder: Allows users to create their custom pizzas with various toppings and sizes.
+Order Management: Users can place, track, and review their orders in real-time.
+Online Payment: Seamless payment processing through Razorpay integration.
 
-## Available Scripts
+## Admin Features
+Dashboard: An overview of sales, orders, and inventory status.
+Order Management: Track, update, and manage all customer orders.
+Inventory Management: Keep track of ingredients and stock levels.
+User Management: View and manage registered users.
 
-In the project directory, you can run:
+## Technologies Used
+### Frontend:
+1. React.js
+2. Tailwind CSS (for styling)
 
-### `npm start`
+### Backend:
+1. Node.js
+2. Express.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Database:
+MongoDB (NoSQL database)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Other Tools:
 
-### `npm test`
+JWT (JSON Web Tokens) for secure authentication
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Getting Started
+### Prerequisites
+1. Node.js
+2. MongoDB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
+### Clone the repository:
+`git clone https://github.com/Maleeq01/PizzaHub.git  
+cd PizzaHub` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Install dependencies for both frontend and backend:
+#### Backend  
+`cd backend`  
+`npm install ` 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Frontend  
+`cd ../frontend  `
+`npm install ` 
 
-### `npm run eject`
+## Set up environment variables:
+### Create a .env file in the backend directory and add the following:
+`MONGO_URI=mongodb://localhost:27017/pizza-delivery`
+`REACT_APP_API_URL=http://localhost:5000/api`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+Contributions are welcome! Please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Fork the project.
+1. Create a new branch `(git checkout -b feature/new-feature)`.
+2. Commit your changes `(git commit -m 'Add some feature')`.
+3. Push to the branch `(git push origin feature/new-feature)`.
+4. Open a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+1. Developer: Abdulmalik Abubakar
+2. Email: maleeq990@gmail.com
+3. GitHub: https://github.com/Maleeq01
